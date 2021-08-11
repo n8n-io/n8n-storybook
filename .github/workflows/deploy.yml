@@ -18,7 +18,7 @@ jobs:
           node-version: 14.x
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
-      - name: setup and build
+      - name: setup and build and commit 
         run: |
           git clone https://github.com/n8n-io/n8n
           cd n8n
@@ -26,10 +26,6 @@ jobs:
           cd packages/design-system/
           npm install
           npm run build:storybook
-          cd storybook-static
-      - name: commit
-        run: |
-          pwd
           cd storybook-static
           git init
           git config --local user.email "github-actions@users.noreply.github.com"

@@ -22,7 +22,7 @@ jobs:
         run: |
           git clone https://github.com/n8n-io/n8n
           cd n8n
-          git checkout n8n-2284-credentials-modal
+          git checkout n8n-2385-auth-views
           cd packages/design-system/
           npm install
           npm run build:storybook

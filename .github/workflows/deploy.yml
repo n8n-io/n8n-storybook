@@ -22,7 +22,7 @@ jobs:
         run: |
           git clone https://github.com/n8n-io/n8n
           cd n8n
-          git checkout master
+          git checkout n8n-3030-n8n-sticky-component
           cd packages/design-system/
           npm install
           npm run build:storybook

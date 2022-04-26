@@ -22,7 +22,7 @@ jobs:
         run: |
           git clone https://github.com/n8n-io/n8n
           cd n8n
-          git checkout master
+          git checkout N8N-3357-notice-component-design-and-unit-testing
           cd packages/design-system/
           npm install
           npm run build:storybook

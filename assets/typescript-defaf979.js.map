@@ -1,0 +1,1 @@
+{"version":3,"file":"typescript-defaf979.js","sources":["../../../../node_modules/.pnpm/element-plus@2.3.6_vue@3.3.4/node_modules/element-plus/es/utils/typescript.mjs"],"sourcesContent":["const mutable = (val) => val;\n\nexport { mutable };\n//# sourceMappingURL=typescript.mjs.map\n"],"names":["mutable","val"],"mappings":"AAAK,MAACA,EAAWC,GAAQA","x_google_ignoreList":[0]}

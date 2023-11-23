@@ -1,0 +1,13 @@
+import{N as i}from"./Datatable-09c75ee8.js";import{f as n,h as p}from"./vue.esm-bundler-3aad6c04.js";import{N as s}from"./Button-7453724f.js";import"./useI18n-9f39725a.js";import"./index-6a651def.js";import"./Option-19347590.js";import"./index-02e7f3ca.js";import"./constants-5bd8a862.js";import"./plugin-vue_export-helper-f0b8ed3c.js";import"./index-87478f47.js";import"./index-bf139a46.js";import"./index-ddeaf72e.js";import"./icon-e7a1400f.js";import"./index-2f5ce3f5.js";import"./use-form-item-4955f742.js";import"./typescript-defaf979.js";import"./event-9519ab40.js";import"./error-78e43d3e.js";import"./index-2b9737a3.js";import"./index-2dca196e.js";import"./_baseGet-5c2f929b.js";import"./index-a6727b26.js";import"./isEqual-d33d3be5.js";import"./_isIndex-af14b756.js";import"./index-5bb75181.js";import"./_plugin-vue_export-helper-c27b6911.js";import"./Pagination-3d67af83.js";import"./Icon-56e50434.js";import"./Text-c7071bfc.js";import"./Spinner-ae3926a4.js";const d=n({props:{row:{type:Object,default:()=>({})}},setup(a){return()=>p(s,{},[`Button ${a.row.id}`])}}),l=[{id:"id",path:"id",label:"ID"},{id:"name",path:"name",label:"Name"},{id:"age",path:"meta.age",label:"Age"},{id:"action",label:"Action",render:d}],c=[{id:1,name:"Richard Hendricks",meta:{age:29}},{id:2,name:"Bertram Gilfoyle",meta:{age:44}},{id:3,name:"Dinesh Chugtai",meta:{age:31}},{id:4,name:"Jared Dunn ",meta:{age:38}},{id:5,name:"Richard Hendricks",meta:{age:29}},{id:6,name:"Bertram Gilfoyle",meta:{age:44}},{id:7,name:"Dinesh Chugtai",meta:{age:31}},{id:8,name:"Jared Dunn ",meta:{age:38}},{id:9,name:"Richard Hendricks",meta:{age:29}},{id:10,name:"Bertram Gilfoyle",meta:{age:44}},{id:11,name:"Dinesh Chugtai",meta:{age:31}},{id:12,name:"Jared Dunn ",meta:{age:38}},{id:13,name:"Richard Hendricks",meta:{age:29}},{id:14,name:"Bertram Gilfoyle",meta:{age:44}},{id:15,name:"Dinesh Chugtai",meta:{age:31}}],K={title:"Atoms/Datatable",component:i},e=(a,{argTypes:o})=>({setup:()=>({args:a}),props:Object.keys(o),components:{N8nDatatable:i},template:'<n8n-datatable v-bind="args"></n8n-datatable>'});e.args={columns:l,rows:c};var t,r,m;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`(args, {
+  argTypes
+}) => ({
+  setup: () => ({
+    args
+  }),
+  props: Object.keys(argTypes),
+  components: {
+    N8nDatatable
+  },
+  template: '<n8n-datatable v-bind="args"></n8n-datatable>'
+})`,...(m=(r=e.parameters)==null?void 0:r.docs)==null?void 0:m.source}}};const L=["Default"];export{e as Default,L as __namedExportsOrder,K as default};
+//# sourceMappingURL=Datatable.stories-ac097d05.js.map

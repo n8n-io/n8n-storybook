@@ -1,0 +1,2 @@
+import{f as e,o as n,b as a,v as o,m as r}from"./vue.esm-bundler-3aad6c04.js";import{_ as p}from"./_plugin-vue_export-helper-c27b6911.js";const s=e({name:"n8n-tag",props:{text:{type:String}}}),c="_tag_19qws_1",g={tag:c};function m(t,_,l,d,f,y){return n(),a("span",r({class:["n8n-tag",t.$style.tag]},t.$attrs),o(t.text),17)}const i={$style:g},x=p(s,[["render",m],["__cssModules",i]]);s.__docgenInfo={displayName:"n8n-tag",exportName:"default",description:"",tags:{},props:[{name:"text",type:{name:"string"}}]};export{x as N};
+//# sourceMappingURL=Tag-c02fc8b4.js.map

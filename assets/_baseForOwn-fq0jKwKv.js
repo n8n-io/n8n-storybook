@@ -1,0 +1,1 @@
+import{k as u}from"./hasIn-BxG8bepv.js";function l(e){return function(r,i,s){for(var o=-1,a=Object(r),n=s(r),f=n.length;f--;){var t=n[++o];if(i(a[t],t,a)===!1)break}return r}}var h=l();function b(e,r){return e&&h(e,r,u)}export{h as a,b};

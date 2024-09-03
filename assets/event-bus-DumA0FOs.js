@@ -1,0 +1,1 @@
+function c(){const s=new Map;return{on(n,t){let e=s.get(n);e?e.push(t):e=[t],s.set(n,e)},once(n,t){const e=o=>{this.off(n,e),t(o)};this.on(n,e)},off(n,t){const e=s.get(n);e&&e.splice(e.indexOf(t)>>>0,1)},emit(n,t){const e=s.get(n);e&&e.slice().forEach(o=>o(t))}}}export{c};

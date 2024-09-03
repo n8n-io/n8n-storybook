@@ -1,0 +1,1 @@
+const l=i=>{var n;const t=i.split(" ").filter(e=>e!=="").map(e=>[...new Intl.Segmenter().segment(e)]);return t.length===0?"":t.length===1?((n=t.at(0))==null?void 0:n.slice(0,2).map(e=>e.segment).join(""))??"":t.slice(0,2).map(e=>{var s;return((s=e.at(0))==null?void 0:s.segment)??""}).join("")};export{l as g};
